@@ -1,0 +1,16 @@
+# This is the input file for Radiograph Stitching Algorithm
+# All information after a # will not be read
+C:/Users/mattg_000/Documents/Research/ImageStitchingAlgorithm/EDM1_ThermalJune/ #input path
+LeftEDM_ #Left image base name
+RightEDM_ #Right image base name
+EDM1_JuneBlended_
+OpenBeamJune.tif #Name of the open beam including file type (eg. tif)
+# The following information is degree information to inform the algorithm
+0.0 #degree that the image stack starts with (often 0.0)
+78.0 #degree that the code should use for mutual information
+1.0 #increment between images in the stack
+360 #number of total images in the stack (usually 360.0 for the tomography stacks)
+0.103 #effective pixel width (mm/pixel) used to verify stitching size
+38.1 #size in mm of the actual object (measured/estimated)
+no #answer to if mutual information on either side is blocked by the beam
+N/A #answer to which side is blocked left, right, top, bottom, both, N/A (for none)
